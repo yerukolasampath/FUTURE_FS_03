@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Grind | Local Café & Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">The Daily <span>Grind</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Freshly Brewed Daily, Just For You.</h1>
+            <p>Experience the finest locally sourced coffee and artisan pastries in a cozy atmosphere built for community.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our House Favorites</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Signature Latte</h3>
+                <p>Double shot of espresso with perfectly steamed velvety milk.</p>
+                <span class="price">$4.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Almond Croissant</h3>
+                <p>Flaky, buttery pastry filled with rich almond frangipane cream.</p>
+                <span class="price">$4.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cold Brew Coffee</h3>
+                <p>Steeped for 16 hours for an incredibly smooth, low-acid flavor.</p>
+                <span class="price">$4.25</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Founded in the heart of town, The Daily Grind started with a simple mission: to bring people together over an exceptional cup of coffee. We partner exclusively with sustainable local farmers to ensure every bean tells a story of quality and care.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Connect With Us</h2>
+        <p>Have a question or want to cater an event? Drop us a message!</p>
+        
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+        </form>
+        <div id="formResponse" class="form-response"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 The Daily Grind. Crafted to help local businesses grow.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
